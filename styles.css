@@ -9,6 +9,7 @@
 body{
   background-color:#f7f7f7;
   color:#333333;
+   font-family: 'Open Sans', sans-serif;
 }
 
 #wrapper {
@@ -74,10 +75,11 @@ body{
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #999999;
+    color: white;
+    font-weight: bold;
 }
 
-.sidebar-nav li a:hover .social ul li a img:hover{
+.sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
     background: rgba(255,255,255,0.2);
@@ -95,7 +97,7 @@ body{
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: white;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
@@ -197,6 +199,10 @@ body{
     background: #5E2E7D;
 }
 
+.social .fa-instagram:hover{
+    background: #964B00;
+}
+
 #sign-up a{
   color:white;
 }
@@ -216,4 +222,69 @@ mark{
   color: red;
   font-weight: bold;
 
+}
+
+.view-cap, .view-container-border{
+    background: #f7f7f7; 
+}
+
+.login_form {
+    border: 1px solid #AAA;
+    padding:10px;
+}
+
+.cover_photo{ 
+    display: block;
+    align: middle;
+}
+
+.cover_photo img{
+    width: 70%;
+
+    
+}
+
+.cover_photo img:hover{
+    opacity: 0.5
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr{
+    border-top: 1px solid #EEEEEE;
+    border-bottom:1px solid #EEEEEE;
+}
+
+td{
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    text-align: center;
+}
+
+#bio, #candidate_media, #sponsors_and_stuff{
+    width: 33%
+}
+
+td img{
+    padding-top: 20px;
+}
+
+#candidate_media img{
+    
+    width:75%;
+}
+
+#bio p, #bio ul{
+    padding: 20px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+#candidateProfile img{
+    vertical-align: top;
 }
